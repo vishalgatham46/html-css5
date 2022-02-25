@@ -1,0 +1,46 @@
+#conatiner{
+    background-color: azure;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 400px;
+}
+.element{
+    background-color: slateblue;
+    text-align: center;
+    padding: 10px;
+    /* border: 5px solid red; */
+    margin: 10px;
+    height: 70px;
+    font-weight: bolder;
+    font-size: larger;
+    color:rgb(201 225 70);
+
+}
+.first{
+    grid-column:1/3;
+}
+.second{
+    grid-row:2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+}
+.third{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.fourth{
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.fifth{
+    grid-column:1/3;
+
+}
+.sixth{
+    grid-column:1/3;
+
+}
